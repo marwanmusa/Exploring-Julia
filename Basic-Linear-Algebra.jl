@@ -7,7 +7,7 @@ A = rand(1:4, 3, 3)
 x = fill(1.0, (3,)) # = fill(1.0, 3)
 
 #=
-Notice that  has type Array{Int64,2} but  has type Array{Float64,1}.
+Notice that  has type Array{Int64,2} but has type Array{Float64,1}.
 Julia defines the aliases Vector{Type}=Array{Type,1} and Matrix{Type}=Array{Type,2}.
 
 Many of the basic operations are the same as in other languages
